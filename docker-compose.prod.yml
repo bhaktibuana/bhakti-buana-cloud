@@ -5,8 +5,8 @@ services:
     build:
       context: .
       dockerfile: dockerfile
-    container_name: bhakti-buana-api
-    image: bhakti-buana-api
+    container_name: bhakti-buana-cloud
+    image: bhakti-buana-cloud
     ports:
       - 3020:3020
     env_file:
