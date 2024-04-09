@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+  bhakti-buana-cloud:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: bhakti-buana-api
+    image: bhakti-buana-api
+    ports:
+      - 3020:3020
+    env_file:
+      - .env.prod
+    networks:
+      - bhakti_buana_cloud_network
+    volumes:
+     - public:/app/public
+
+networks:
+  bhakti_buana_cloud_network:
+    name: bhakti_buana_cloud_network
+
+volumes:
+  public:
+    driver: local
