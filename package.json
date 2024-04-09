@@ -1,0 +1,11 @@
+{
+  "name": "bhakti-buana-cloud",
+  "version": "0.1.0",
+  "description": "Bhakti Buana Cloud",
+  "main": "index.js",
+  "repository": "https://github.com/bhaktibuana/bhakti-buana-cloud.git",
+  "author": "Bhakti Mega Buana <bhaktibuana19@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {}
+}
